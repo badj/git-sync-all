@@ -146,8 +146,10 @@ brew install --cask powershell
 **Run PowerShell**
 
 > - Once installed, type the cross-platform command `pwsh` to open PowerShell.
-> - You’ll see the prompt change to PS /Users/yourname>. 
+> - You’ll see the prompt change to `PS /Users/yourname>`.
+> - Run `./faws.ps1` to execute the script.
 > - To exit: Type `exit`.
+> - Alternatively run `pwsh ./faws.ps1` from a terminal, and it will run the script with PowerShell without changing the terminal to PowerShell.
 
 
 [_⇡ Return to the Table of Contents_](#table-of-contents)
