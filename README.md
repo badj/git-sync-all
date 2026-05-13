@@ -21,7 +21,7 @@
     - [Recommended – Bash – Fetch All and Stash and Pull](#recommended--bash--fetch-all-and-stash-and-pull)
     - [Bash – Fetch All No Stash and Pull](#bash--fetch-all-no-stash-and-pull)
   - [For Windows / Cross-Platform - PowerShell](#for-windows--cross-platform---powershell)
-    - [PowerShell – Fetch All and Stash and Pull](#powershell--fetch-all-and-stash-and-pull)
+    - [Recommended – PowerShell – Fetch All and Stash and Pull](#recommended--powershell--fetch-all-and-stash-and-pull)
     - [Install and run PowerShell on macOS](#install-and-run-powershell-on-macos)
 - [Global Alias](#global-alias)
   - [Setting the Alias](#setting-the-alias)
@@ -29,11 +29,11 @@
       - [Recommended – Zsh - Bash – Fetch All and Stash and Pull](#recommended--zsh---bash--fetch-all-and-stash-and-pull)
       - [Zsh - Bash – Fetch All No Stash and Pull](#zsh---bash--fetch-all-no-stash-and-pull)
     - [For PowerShell](#for-powershell)
-      - [PowerShell – Alias – Fetch All and Stash and Pull](#powershell--alias--fetch-all-and-stash-and-pull)
+      - [Recommended – PowerShell – Alias – Fetch All and Stash and Pull](#recommended--powershell--alias--fetch-all-and-stash-and-pull)
 - [Sample usage output](#sample-usage-output)
-  - [Recommended – Bash – Fetch All and Stash and Pull](#recommended--bash--fetch-all-and-stash-and-pull)
-  - [Bash sample output – Fetch All No Stash and Pull](#bash-sample-output--fetch-all-no-stash-and-pull)
-  - [PowerShell sample output – Fetch All and Stash and Pull](#powershell-sample-output--fetch-all-and-stash-and-pull)
+  - [Recommended – Bash sample output – Fetch All and Stash and Pull](#recommended--bash-sample-output--fetch-all-and-stash-and-pull)
+  - [Bash sample output – Fetch All No Stash and Pull](#bash-sample-output--fetch-all-no-stash-and-pull) 
+  - [Recommended – PowerShell sample output – Fetch All and Stash and Pull](#recommended--powershell-sample-output--fetch-all-and-stash-and-pull)
 - [Contributing](#contributing)
 
 ---
@@ -109,7 +109,7 @@ Run it:
 
 ### For Windows / Cross-Platform - PowerShell
 
-#### PowerShell – Fetch All and Stash and Pull
+#### Recommended – PowerShell – Fetch All and Stash and Pull
 
 Open your terminal (PowerShell or Terminal) and Run the script:
 
@@ -181,7 +181,7 @@ alias update-all='~/path/to/your/script/fans.sh'
 
 ### For PowerShell:
 
-#### PowerShell – Alias – Fetch All and Stash and Pull
+#### Recommended – PowerShell – Alias – Fetch All and Stash and Pull
 
 ```PowerShell
 Set-Alias -Name gup -Value C:\path\to\faws.ps1
@@ -192,7 +192,11 @@ Set-Alias -Name gup -Value C:\path\to\faws.ps1
 
 ## Sample usage output
 
-### Recommended – Bash sample output – Fetch All, Stash, and Pull
+### Recommended – Bash sample output – Fetch All and Stash and Pull
+
+
+<details>
+  <summary>Click to expand!</summary>
 
 ```terminaloutput
     jjbadenhorst:Git-demo % ./faws.sh
@@ -291,11 +295,16 @@ Set-Alias -Name gup -Value C:\path\to\faws.ps1
     --------------------------------------------
     All done!
 ```
+</details>
+
 
 [_⇡ Return to the Table of Contents_](#table-of-contents)
 
 
 ### Bash sample output – Fetch All No Stash and Pull
+
+<details>
+  <summary>Click to expand!</summary>
 
 ```terminaloutput
     jjbadenhorst:Git-demo % ./fans.sh
@@ -327,11 +336,16 @@ Set-Alias -Name gup -Value C:\path\to\faws.ps1
     --------------------------------------------
     Done!
 ```
+</details>
+
 
 [_⇡ Return to the Table of Contents_](#table-of-contents)
 
 
-### PowerShell sample output – Fetch All and Stash and Pull
+### Recommended – PowerShell sample output – Fetch All and Stash and Pull
+
+<details>
+  <summary>Click to expand!</summary>
 
 ```terminaloutput
     jjbadenhorst:Git-demo % pwsh
@@ -350,7 +364,7 @@ Set-Alias -Name gup -Value C:\path\to\faws.ps1
     Re-applying your local changes...
     On branch main
     Your branch is up to date with 'origin/main'.
-    
+
     Changes not staged for commit:
       (use "git add/rm <file>..." to update what will be committed)
       (use "git restore <file>..." to discard changes in working directory)
@@ -432,6 +446,9 @@ Set-Alias -Name gup -Value C:\path\to\faws.ps1
     All repositories processed!                                                                                                                                                                                                             
     PS /Users/jjbadenhorst/Documents/Git-demo>    
 ```
+</details>
+
+
 
 [_⇡ Return to the Table of Contents_](#table-of-contents)
 
