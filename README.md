@@ -44,9 +44,9 @@
 git-sync-all 
 ├── LICENSE
 ├── README.md
-├── fans.sh // Alias script for "Fetch All, No Stash, and Pull" in Bash
+├── fans.sh  // Alias script for "Fetch All, No Stash, and Pull" in Bash
 ├── faws.ps1 // Alias script for "Fetch All, Stash, and Pull" in PowerShell
-└── faws.sh // Alias script for "Fetch All, Stash, and Pull" in Bash
+└── faws.sh  // Alias script for "Fetch All, Stash, and Pull" in Bash
 ```
 
 [_⇡ Return to the Table of Contents_](#table-of-contents)
